@@ -4,7 +4,9 @@
   "description": "Hello World problem using TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"tsc type.ts",
+    "start": "http-server"
   },
   "keywords": [
     "typescript",
